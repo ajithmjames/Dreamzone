@@ -31,7 +31,7 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #309255;
+    --bs-primary: #e42355;
     --bs-secondary: #e7f8ee;
     --bs-success: #198754;
     --bs-info: #363b42;
@@ -70,7 +70,7 @@
     --bs-border-radius-xl: 1rem;
     --bs-border-radius-2xl: 2rem;
     --bs-border-radius-pill: 50rem;
-    --bs-link-color: #309255;
+    --bs-link-color: #e42355;
     --bs-link-hover-color: #267544;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd
@@ -3222,8 +3222,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -3235,8 +3235,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type=checkbox]:indeterminate {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 
@@ -3343,7 +3343,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -0.25rem;
-    background-color: #309255;
+    background-color: #e42355;
     border: 0;
     border-radius: 1rem;
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3378,7 +3378,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #309255;
+    background-color: #e42355;
     border: 0;
     border-radius: 1rem;
     -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3990,19 +3990,19 @@ fieldset:disabled .btn {
 
 .btn-primary {
     --bs-btn-color: #000;
-    --bs-btn-bg: #309255;
-    --bs-btn-border-color: #309255;
+    --bs-btn-bg: #ff007a;
+    --bs-btn-border-color: #ff007a;
     --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #4fa26f;
-    --bs-btn-hover-border-color: #459d66;
+    --bs-btn-hover-bg: #f9faff;
+    --bs-btn-hover-border-color: #f9faff;
     --bs-btn-focus-shadow-rgb: 41, 124, 72;
     --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #59a877;
-    --bs-btn-active-border-color: #459d66;
+    --bs-btn-active-bg: #f9faff;
+    --bs-btn-active-border-color: #f9faff;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #000;
-    --bs-btn-disabled-bg: #309255;
-    --bs-btn-disabled-border-color: #309255
+    --bs-btn-disabled-bg: #ff007a;
+    --bs-btn-disabled-border-color: #e42355
 }
 
 .btn-secondary {
@@ -4125,19 +4125,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-    --bs-btn-color: #309255;
-    --bs-btn-border-color: #309255;
+    --bs-btn-color: #e42355;
+    --bs-btn-border-color: #e42355;
     --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #309255;
-    --bs-btn-hover-border-color: #309255;
+    --bs-btn-hover-bg: #e42355;
+    --bs-btn-hover-border-color: #e42355;
     --bs-btn-focus-shadow-rgb: 48, 146, 85;
     --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #309255;
-    --bs-btn-active-border-color: #309255;
+    --bs-btn-active-bg: #e42355;
+    --bs-btn-active-border-color: #e42355;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #309255;
+    --bs-btn-disabled-color: #e42355;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #309255;
+    --bs-btn-disabled-border-color: #e42355;
     --bs-gradient: none
 }
 
@@ -4396,7 +4396,7 @@ fieldset:disabled .btn {
     --bs-dropdown-link-hover-color: #1e2125;
     --bs-dropdown-link-hover-bg: #e9ecef;
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #309255;
+    --bs-dropdown-link-active-bg: #e42355;
     --bs-dropdown-link-disabled-color: #adb5bd;
     --bs-dropdown-item-padding-x: 1rem;
     --bs-dropdown-item-padding-y: 0.25rem;
@@ -4700,7 +4700,7 @@ fieldset:disabled .btn {
     --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
     --bs-dropdown-link-hover-bg: rgba(255, 255, 255, 0.15);
     --bs-dropdown-link-active-color: #fff;
-    --bs-dropdown-link-active-bg: #309255;
+    --bs-dropdown-link-active-bg: #e42355;
     --bs-dropdown-link-disabled-color: #adb5bd;
     --bs-dropdown-header-color: #adb5bd
 }
@@ -4931,7 +4931,7 @@ fieldset:disabled .btn {
 .nav-pills {
     --bs-nav-pills-border-radius: 0.25rem;
     --bs-nav-pills-link-active-color: #fff;
-    --bs-nav-pills-link-active-bg: #309255
+    --bs-nav-pills-link-active-bg: #e42355
 }
 
 .nav-pills .nav-link {
@@ -6035,8 +6035,8 @@ fieldset:disabled .btn {
     --bs-pagination-focus-bg: #e9ecef;
     --bs-pagination-focus-box-shadow: 0 0 0 0 rgba(48, 146, 85, 0);
     --bs-pagination-active-color: #fff;
-    --bs-pagination-active-bg: #309255;
-    --bs-pagination-active-border-color: #309255;
+    --bs-pagination-active-bg: #e42355;
+    --bs-pagination-active-border-color: #e42355;
     --bs-pagination-disabled-color: #6c757d;
     --bs-pagination-disabled-bg: #fff;
     --bs-pagination-disabled-border-color: #dee2e6;
@@ -6294,7 +6294,7 @@ fieldset:disabled .btn {
     --bs-progress-border-radius: 0.25rem;
     --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
     --bs-progress-bar-color: #fff;
-    --bs-progress-bar-bg: #309255;
+    --bs-progress-bar-bg: #e42355;
     --bs-progress-bar-transition: width 0.6s ease;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6366,8 +6366,8 @@ fieldset:disabled .btn {
     --bs-list-group-disabled-color: #6c757d;
     --bs-list-group-disabled-bg: #fff;
     --bs-list-group-active-color: #fff;
-    --bs-list-group-active-bg: #309255;
-    --bs-list-group-active-border-color: #309255;
+    --bs-list-group-active-bg: #e42355;
+    --bs-list-group-active-border-color: #e42355;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -8787,7 +8787,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-    color: #309255 !important
+    color: #e42355 !important
 }
 
 .link-primary:focus,
@@ -18084,7 +18084,7 @@ img {
 .section-title .sub-title {
     font-size: 20px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     margin-bottom: 20px
 }
 
@@ -18121,7 +18121,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .section-title .main-title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
@@ -18136,7 +18136,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .section-title.shape-01 .main-title span:before {
     position: absolute;
     content: "";
-    background-image: url(../images/shape/shape-11.png);
+    /* background-image: url(../images/shape/shape-11.png); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18304,8 +18304,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 .page-pagination .pagination li a.active,
 .page-pagination .pagination li a:hover {
     color: #fff;
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .animation-round {
@@ -18538,31 +18538,31 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .btn-hover-primary:hover {
-    border-color: #309255;
+    border-color: #e42355;
     color: #fff
 }
 
 .btn-hover-primary:hover:before {
-    background-color: #309255
+    background-color: #e42355
 }
 
 .btn-outline-primary {
-    border: 2px solid #309255;
+    border: 2px solid #e42355;
     line-height: 61px;
     color: #212832
 }
 
 .btn-outline-primary:hover {
-    background: #309255;
+    background: #e42355;
     color: #fff
 }
 
 .btn-secondary {
-    color: #309255
+    color: #e42355
 }
 
 .btn-secondary:focus {
-    color: #309255
+    color: #e42355
 }
 
 .btn-hover-secondary:hover {
@@ -18781,7 +18781,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .blockquote .quote {
     font-size: 150px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     line-height: 120px;
     height: 60px;
     display: block
@@ -18861,7 +18861,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .single-form input:not([type=checkbox]):not([type=radio]):focus,
 .single-form textarea:focus {
-    border-color: #309255;
+    border-color: #e42355;
     outline: none
 }
 
@@ -18914,8 +18914,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-form input[type=checkbox]:checked+label span {
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .single-form input[type=checkbox]:checked+label span:before {
@@ -19062,7 +19062,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-select2 .form-select2 .select2-container--default.select2-container--open .select2-selection--single {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .select2-container--default .select2-results>.select2-results__options {
@@ -19098,11 +19098,11 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .gj-picker table tr td.selected.gj-cursor-pointer div {
     color: #fff;
-    background: #309255
+    background: #e42355
 }
 
 .gj-picker table tr td.today div {
-    color: #309255
+    color: #e42355
 }
 
 .gj-picker table tr td div,
@@ -19161,7 +19161,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .header-top {
-    background-color: #212832
+    background-color: #f15f96
 }
 
 .header-top-wrapper {
@@ -19187,7 +19187,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .header-top-left p a {
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     font-weight: 500
 }
@@ -19284,11 +19284,11 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .header-top-medal .top-info p a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .header-top-medal .top-info p i {
-    color: #309255;
+    color: fffffff;
     font-size: 20px;
     padding-right: 15px
 }
@@ -19324,7 +19324,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .header-top-right .social li a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .header-main-wrapper {
@@ -19337,7 +19337,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid rgba(48, 146, 85, 0.25);
+    /* border: 1px solid rgba(48, 146, 85, 0.25); */
     padding: 16px 15px;
     border-radius: 15px;
     margin-left: -15px;
@@ -19431,11 +19431,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .header-menu ul li:hover>a {
-    color: #309255
+    color: #e42355
 }
 
 .header-menu ul li.active>a {
-    color: #309255
+    color: #e42355
 }
 
 .header-menu ul li.active>a:before {
@@ -19619,7 +19619,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .header-menu .mega-sub-menu>li:hover>a {
-    color: #309255
+    color: #e42355
 }
 
 .header-menu .mega-sub-menu>li .menu-item {
@@ -19645,7 +19645,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .header-menu .mega-sub-menu>li .menu-item>li:hover>a {
     padding-left: 5px;
-    color: #309255
+    color: #e42355
 }
 
 @media only screen and (max-width:767px) {
@@ -19693,14 +19693,14 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .header-sign-in-up ul li a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .header-sign-in-up ul li a.sign-up {
     height: 60px;
     line-height: 56px;
     padding: 0 35px;
-    border: 1px solid #309255;
+    border: 1px solid #e42355;
     border-radius: 10px;
     background-color: #fff
 }
@@ -19714,7 +19714,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .header-sign-in-up ul li a.sign-up:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -19848,11 +19848,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .mobile-top p a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .mobile-top p i {
-    color: #309255;
+    color: #e42355;
     font-size: 20px;
     padding-right: 15px
 }
@@ -19899,7 +19899,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     height: 45px;
     line-height: 41px;
     padding: 0 30px;
-    border: 1px solid #309255;
+    border: 1px solid #e42355;
     border-radius: 5px;
     background-color: #fff
 }
@@ -19911,7 +19911,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .mobile-sign-in-up ul li a:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -20024,7 +20024,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .mobile-social .social li a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .login-header {
@@ -20159,7 +20159,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     top: 5px;
     right: 5px;
     font-size: 16px;
-    color: #309255;
+    color: #e42355;
     z-index: 112
 }
 
@@ -20245,7 +20245,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .login-header-action .notification {
     font-size: 36px;
-    color: #309255;
+    color: #e42355;
     position: relative;
     padding-top: 3px;
     border: 0;
@@ -20338,7 +20338,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .login-header-action .more span {
     width: 4px;
     height: 4px;
-    background-color: #309255;
+    background-color: #e42355;
     border-radius: 50%;
     display: inline-block;
     margin: 0 1.5px
@@ -20407,7 +20407,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .login-header-action .dropdown .dropdown-menu li>a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .login-header-action .dropdown .dropdown-menu .notification-items-list .notification-item {
@@ -20507,7 +20507,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .slider-section {
-    background-color: #eefbf3;
+    background-color: #f9faff;
     height: 940px;
     position: relative;
     overflow: hidden;
@@ -20599,7 +20599,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
-    color: #309255
+    color: #e42355
 }
 
 @media only screen and (max-width:767px),
@@ -20631,14 +20631,14 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .slider-content .main-title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
 .slider-content .main-title span:before {
     position: absolute;
     content: "";
-    background-image: url(../images/shape/shape-4.png);
+    /* background-image: url(../images/shape/shape-4.png); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20732,7 +20732,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     width: 140px;
     height: 140px;
     text-align: center;
-    background-color: #309255;
+    background-color: #e42355;
     border-radius: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -20880,7 +20880,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .slider-rating-box .box-rating .count {
     font-size: 30px;
     font-weight: 500;
-    color: #309255
+    color: #e42355
 }
 
 @media only screen and (max-width:767px) {
@@ -21072,7 +21072,7 @@ only screen and (min-width:1200px) and (max-width:1599px) {
 }
 
 .courses-search input:focus {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .courses-search button {
@@ -21087,7 +21087,7 @@ only screen and (min-width:1200px) and (max-width:1599px) {
     top: 7px;
     right: 7px;
     font-size: 16px;
-    color: #309255
+    color: #e42355
 }
 
 .courses-search.search-2 {
@@ -21107,14 +21107,14 @@ only screen and (min-width:1600px) {
 
 .courses-search.search-2 button {
     line-height: 46px;
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff;
     width: 46px;
     height: 46px
 }
 
 .courses-tabs-menu {
-    background-color: #eefbf3;
+    background-color: #f9faff;
     padding: 40px 100px;
     border-radius: 10px;
     margin-top: 50px;
@@ -21149,8 +21149,8 @@ only screen and (min-width:1600px) {
 
 .courses-tabs-menu .nav li button.active,
 .courses-tabs-menu .nav li button:hover {
-    border-color: #309255;
-    color: #309255
+    border-color: #e42355;
+    color: #e42355
 }
 
 .courses-active .swiper-button-next,
@@ -21188,7 +21188,7 @@ only screen and (min-width:1600px) {
 
 .courses-active .swiper-button-next:hover,
 .courses-active .swiper-button-prev:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -21265,7 +21265,7 @@ only screen and (min-width:1600px) {
 .single-courses .courses-images .courses-option .option-toggle span {
     width: 4px;
     height: 4px;
-    background-color: #309255;
+    background-color: #e42355;
     border-radius: 50%;
     display: block;
     margin: 0 1.5px
@@ -21361,12 +21361,12 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .courses-author .author .author-name .name:hover {
-    color: #309255
+    color: #e42355
 }
 
 .single-courses .courses-content .courses-author .author .author-name .name-2 {
     position: relative;
-    color: #309255;
+    color: #e42355;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400
@@ -21403,7 +21403,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     background-color: #e7f8ee;
     border-radius: 5px;
     font-size: 14px;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     text-align: center;
     border-radius: 5px;
@@ -21419,7 +21419,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .courses-author .tag a:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -21439,7 +21439,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .single-courses .courses-content .courses-meta {
@@ -21466,7 +21466,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .courses-meta span i {
-    color: #309255;
+    color: #e42355;
     margin-right: 5px;
     font-size: 20px;
     display: inline-block;
@@ -21474,7 +21474,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .courses-price-review {
-    background-color: #eefbf3;
+    background-color: #f9faff;
     padding: 15px 20px;
     border-radius: 10px;
     display: -webkit-box;
@@ -21509,7 +21509,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-courses .courses-content .courses-price-review .courses-price .sale-parice {
     font-size: 18px;
     font-weight: 700;
-    color: #309255;
+    color: #e42355;
     margin-right: 5px
 }
 
@@ -21603,7 +21603,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses .courses-content .courses-rating p a {
-    color: #309255
+    color: #e42355
 }
 
 .single-courses .courses-content .courses-rating .rating-progress-bar {
@@ -21615,7 +21615,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .single-courses .courses-content .courses-rating .rating-progress-bar .rating-line {
     height: 100%;
-    background-color: #309255
+    background-color: #e42355
 }
 
 .single-courses .courses-content .courses-rating .rating-meta {
@@ -21674,7 +21674,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses:hover {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .courses-btn {
@@ -21682,7 +21682,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-btn .btn {
-    border: 1px solid #309255;
+    border: 1px solid #e42355;
     line-height: 58px
 }
 
@@ -21770,8 +21770,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .courses-category-wrapper .category-menu li a.active,
 .courses-category-wrapper .category-menu li a:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -21943,7 +21943,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     border: 1px solid rgba(48, 146, 85, 0.2);
     border-radius: 10px;
     background-color: #fff;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     font-size: 32px;
     -webkit-transition: all 0.3s ease 0s;
@@ -21990,8 +21990,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-work:hover .work-icon i {
-    border-color: #309255;
-    background-color: #309255;
+    border-color: #e42355;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -22002,7 +22002,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .download-section {
-    background-color: #309255;
+    background-color: #e42355;
     position: relative;
     overflow: hidden
 }
@@ -22274,7 +22274,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff;
     font-size: 13px;
     border-radius: 50%;
@@ -22352,7 +22352,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .single-testimonial .testimonial-content .designation {
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin-top: 5px;
     display: block
 }
@@ -22376,7 +22376,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .testimonial-active .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #309255
+    background-color: #e42355
 }
 
 .brand-logo-wrapper {
@@ -22527,7 +22527,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-blog .blog-content .blog-author .author .author-name .name:hover {
-    color: #309255
+    color: #e42355
 }
 
 .single-blog .blog-content .blog-author .tag a {
@@ -22537,7 +22537,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     background-color: #e7f8ee;
     border-radius: 5px;
     font-size: 14px;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     text-align: center;
     border-radius: 5px;
@@ -22553,7 +22553,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-blog .blog-content .blog-author .tag a:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -22573,7 +22573,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-blog .blog-content .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .single-blog .blog-content .blog-meta {
@@ -22600,7 +22600,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-blog .blog-content .blog-meta span i {
-    color: #309255;
+    color: #e42355;
     margin-right: 5px;
     font-size: 20px;
     display: inline-block;
@@ -22617,7 +22617,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-blog:hover {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .page-banner {
@@ -22784,7 +22784,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .page-banner-content .breadcrumb li.active {
-    color: #309255
+    color: #e42355
 }
 
 .page-banner-content .title {
@@ -22811,7 +22811,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .page-banner-content .title span {
     position: relative;
-    color: #309255
+    color: #e42355
 }
 
 .page-banner-content .title span:before {
@@ -22923,7 +22923,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .shape-icon-box .box-content .box-wrapper {
-    background-color: #309255;
+    background-color: #e42355;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -22964,7 +22964,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .about-images .about-years {
     width: 125px;
-    background-color: #309255;
+    background-color: #e42355;
     padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
@@ -23021,7 +23021,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .about-content .sub-title {
     font-size: 20px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     margin-bottom: 20px
 }
 
@@ -23059,7 +23059,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .about-content .main-title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
@@ -23143,7 +23143,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     text-align: center;
     border-radius: 50%;
     background-color: #e7f8ee;
-    color: #309255;
+    color: #e42355;
     font-size: 36px;
     display: inline-block;
     -webkit-transition: all 0.3s ease 0s;
@@ -23185,11 +23185,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .about-item:hover {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .about-item:hover .item-icon-title .item-icon i {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -23257,12 +23257,12 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-team .team-content .designation {
     display: block;
     font-size: 14px;
-    color: #309255;
+    color: #e42355;
     margin-top: 10px
 }
 
 .single-team:hover .team-thumb img {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .courses-details {
@@ -23419,7 +23419,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .courses-details .courses-details-admin .admin-author .author-content .Enroll {
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     line-height: 22px
 }
@@ -23536,8 +23536,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .courses-details-tab .details-tab-menu .nav li button.active,
 .courses-details-tab .details-tab-menu .nav li button:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -23583,7 +23583,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .courses-details-tab .details-tab-content .tab-rating-box .count {
     font-size: 30px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     line-height: 1
 }
 
@@ -23665,7 +23665,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .courses-details-tab .details-tab-content .tab-rating-box .single-rating .rating-progress-bar .rating-line {
     height: 100%;
-    background-color: #309255
+    background-color: #e42355
 }
 
 .courses-details-tab .details-tab-content .tab-reviews {
@@ -23736,7 +23736,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff;
     font-size: 13px;
     border-radius: 50%;
@@ -23771,7 +23771,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .courses-details-tab .details-tab-content .tab-reviews .single-review .review-author .author-content .designation {
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin-top: 5px;
     display: block
 }
@@ -23848,7 +23848,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .reviews-active .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-color: #309255
+    background-color: #e42355
 }
 
 .blog-details-wrapper {
@@ -23940,7 +23940,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .blog-details-admin-meta .author .author-name .name:hover {
-    color: #309255
+    color: #e42355
 }
 
 .blog-details-admin-meta .blog-meta {
@@ -23986,7 +23986,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .blog-details-admin-meta .blog-meta span i {
-    color: #309255;
+    color: #e42355;
     margin-right: 5px;
     font-size: 20px;
     display: inline-block;
@@ -24000,7 +24000,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     background-color: #e7f8ee;
     border-radius: 5px;
     font-size: 14px;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     text-align: center;
     border-radius: 5px;
@@ -24016,7 +24016,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .blog-details-admin-meta .blog-meta .tag a:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -24131,8 +24131,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .blog-details-label .tag-list li a:hover {
-    border-color: #309255;
-    background-color: #309255;
+    border-color: #e42355;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -24176,8 +24176,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .blog-details-label .social li a:hover {
-    border-color: #309255;
-    background-color: #309255;
+    border-color: #e42355;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -24297,14 +24297,14 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-comment .comment-author .author-content .meta .designation {
-    color: #309255
+    color: #e42355
 }
 
 .single-comment .comment-author .author-content .meta .designation:after {
     content: "||";
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin: 0 8px
 }
 
@@ -24326,7 +24326,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     line-height: 45px;
     border-radius: 10px;
     background-color: #e7f8ee;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -24349,7 +24349,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-comment .reply:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -24400,7 +24400,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     width: 270px;
     height: 270px;
     border-radius: 50%;
-    background-color: #309255;
+    background-color: #e42355;
     top: 50px;
     left: 20%;
     position: absolute;
@@ -24472,7 +24472,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .register-login-form .title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
@@ -24524,8 +24524,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .register-login-form .single-form .btn.btn-outline:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -24597,8 +24597,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .faq-tab-menu .nav li button.active,
 .faq-tab-menu .nav li button:hover {
-    border-color: #309255;
-    color: #309255
+    border-color: #e42355;
+    color: #e42355
 }
 
 @media only screen and (max-width:767px),
@@ -24667,7 +24667,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-faq-item:hover .faq-title .title {
-    color: #309255
+    color: #e42355
 }
 
 .faq-btn {
@@ -24696,7 +24696,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     font-size: 20px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    color: #309255;
+    color: #e42355;
     margin-bottom: 20px
 }
 
@@ -24729,7 +24729,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .error-content .main-title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
@@ -24904,7 +24904,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     border: 1px solid rgba(48, 146, 85, 0.2);
     border-radius: 50%;
     font-size: 30px;
-    color: #309255;
+    color: #e42355;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s
@@ -24942,7 +24942,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-contact-info .info-content .title {
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin-bottom: 0
 }
 
@@ -24967,8 +24967,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-contact-info:hover .info-icon i {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -25018,7 +25018,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .contact-form .title span {
-    color: #309255;
+    color: #e42355;
     position: relative
 }
 
@@ -25070,8 +25070,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .contact-form .single-form .btn.btn-outline:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -25379,7 +25379,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .courses-video-player .controllers .speedcnt li.selected {
     font-weight: 500;
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -25592,8 +25592,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .courses-enroll-content .courses-enroll-tab .enroll-tab-menu .nav li button.active,
 .courses-enroll-content .courses-enroll-tab .enroll-tab-menu .nav li button:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -25628,14 +25628,14 @@ only screen and (min-width:768px) and (max-width:991px) {
 .courses-enroll-content .courses-enroll-tab .enroll-share a i {
     margin-right: 5px;
     font-size: 20px;
-    color: #309255;
+    color: #e42355;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s
 }
 
 .courses-enroll-content .courses-enroll-tab .enroll-share a:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -25807,7 +25807,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .courses-enroll-content .courses-enroll-tab-content .enroll-tab-content .single-instructor .review-author .author-content .designation {
     font-size: 14px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin-top: 5px;
     display: block
 }
@@ -25867,7 +25867,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .courses-video-playlist {
     width: 28.2%;
-    background-color: #eefbf3
+    background-color: #f9faff
 }
 
 @media only screen and (max-width:767px),
@@ -25923,7 +25923,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .courses-video-playlist .playlist-title span {
     font-size: 18px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     display: inline-block;
     margin-top: 10px
 }
@@ -25974,7 +25974,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     margin-bottom: 0;
     font-size: 15px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     max-width: 420px
@@ -25991,7 +25991,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     content: "\eaa1";
     font-family: IcoFont;
     font-size: 20px;
-    color: #309255;
+    color: #e42355;
     position: absolute;
     top: 8px;
     right: 30px;
@@ -26006,7 +26006,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-video-playlist .video-playlist .accordion-item button.collapsed {
-    background-color: #eefbf3
+    background-color: #f9faff
 }
 
 .courses-video-playlist .video-playlist .accordion-item button.collapsed p {
@@ -26039,7 +26039,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     content: "";
     width: 13px;
     height: 13px;
-    border: 3px solid #309255;
+    border: 3px solid #e42355;
     border-radius: 50%;
     top: 13px;
     left: 48px
@@ -26062,16 +26062,16 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-video-playlist .video-playlist .vids a.active:before {
-    background-color: #309255;
+    background-color: #e42355;
     border-color: #acd6bc
 }
 
 .courses-video-playlist .video-playlist .vids a.active p {
-    color: #309255
+    color: #e42355
 }
 
 .sidebar-wrapper {
-    background-color: #309255;
+    background-color: #e42355;
     position: absolute;
     top: 0;
     left: 0;
@@ -26431,8 +26431,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .admin-courses-tab .courses-tab-wrapper .nav li button.active,
 .admin-courses-tab .courses-tab-wrapper .nav li button:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -26608,7 +26608,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-item .content-title .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .courses-item .content-wrapper {
@@ -26811,7 +26811,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-item .content-wrapper .content-box:nth-of-type(2) .count {
-    color: #309255
+    color: #e42355
 }
 
 .courses-item .content-wrapper .content-box:nth-of-type(3) {
@@ -26849,7 +26849,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .courses-resources {
-    background-color: #eefbf3;
+    background-color: #f9faff;
     padding: 70px 100px;
     border-radius: 10px;
     margin-top: 80px
@@ -26956,7 +26956,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-resources:hover .resources-icon a {
-    background-color: #309255
+    background-color: #e42355
 }
 
 .single-resources:hover .resources-icon a img {
@@ -27040,7 +27040,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     height: 25px;
     line-height: 23px;
     text-align: center;
-    background-color: #309255;
+    background-color: #e42355;
     font-size: 13px;
     font-weight: 400;
     color: #fff;
@@ -27075,7 +27075,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #309255;
+    background-color: #e42355;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -27313,7 +27313,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .overview-box .single-box p span {
-    color: #309255
+    color: #e42355
 }
 
 .overview-box .single-box:first-of-type {
@@ -27329,7 +27329,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .overview-box .single-box:nth-of-type(2) .count {
-    color: #309255
+    color: #e42355
 }
 
 .overview-box .single-box:nth-of-type(3) {
@@ -27447,7 +27447,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 32px;
     font-weight: 700;
     margin-top: 5px;
-    color: #309255
+    color: #e42355
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -27525,7 +27525,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-student .student-content .country {
-    color: #309255;
+    color: #e42355;
     font-size: 13px;
     font-weight: 400;
     display: block;
@@ -27556,16 +27556,16 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-student .student-content .date i {
-    color: #309255;
+    color: #e42355;
     margin-right: 5px
 }
 
 .single-student:hover {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .single-student:hover .student-images img {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .students-active {
@@ -27617,7 +27617,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .students-active .swiper-button-next:hover,
 .students-active .swiper-button-prev:hover {
-    background-color: #309255;
+    background-color: #e42355;
     color: #fff
 }
 
@@ -27729,7 +27729,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-student-widget.widget-color-02 {
-    background-color: #eefbf3
+    background-color: #f9faff
 }
 
 .single-student-widget.widget-color-02 .widget-title {
@@ -27741,11 +27741,11 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-student-widget.widget-color-02 .single-item .item-bar .bar-line {
-    background-color: #309255
+    background-color: #e42355
 }
 
 .single-student-widget.widget-color-02 .single-item .item-percentage p span {
-    color: #309255
+    color: #e42355
 }
 
 .single-student-widget.widget-color-02 .page-pagination .pagination li a {
@@ -27755,8 +27755,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-student-widget.widget-color-02 .page-pagination .pagination li a.active,
 .single-student-widget.widget-color-02 .page-pagination .pagination li a:hover {
     color: #fff;
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .single-student-widget.widget-color-03 {
@@ -27916,7 +27916,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-student-widget .page-pagination .pagination li a.active,
 .single-student-widget .page-pagination .pagination li a:hover {
     color: #fff;
-    background-color: #309255
+    background-color: #e42355
 }
 
 .new-courses {
@@ -28377,7 +28377,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .engagement-courses .courses-list ul li .courses .content .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .engagement-courses .courses-list ul li .student span,
@@ -28561,8 +28561,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .filter-check>li input:checked+label span {
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .filter-check>li input:checked+label span:before {
@@ -28795,7 +28795,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses-rating .courses .courses-content .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .single-courses-rating .courses .courses-content .average-rating {
@@ -28828,7 +28828,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .single-courses-rating .courses .courses-content .average-rating .count {
     font-size: 22px;
     font-weight: 700;
-    color: #309255;
+    color: #e42355;
     display: block
 }
 
@@ -28886,8 +28886,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses-rating .courses .courses-btn .btn:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -28898,7 +28898,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     position: relative;
     padding: 30px;
     border-radius: 10px;
-    background-color: #eefbf3;
+    background-color: #f9faff;
     margin-top: 20px
 }
 
@@ -28986,15 +28986,15 @@ only screen and (min-width:992px) and (max-width:1199px) {
     border: 1px solid #c8e6d3;
     padding: 0 20px;
     background-color: #fff;
-    color: #309255;
+    color: #e42355;
     height: 45px;
     line-height: 41px;
     margin-top: 20px
 }
 
 .single-courses-rating .rating .rating-content .btn:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -29010,7 +29010,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-courses-rating .rating .waving:hover {
-    color: #309255
+    color: #e42355
 }
 
 .question-answer {
@@ -29150,8 +29150,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-user.active {
-    background-color: #309255;
-    border-color: #309255
+    background-color: #e42355;
+    border-color: #e42355
 }
 
 .single-user.active .user-content .name {
@@ -29234,7 +29234,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     display: block;
     padding: 0 20px;
     text-align: center;
@@ -29252,8 +29252,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .answer-message-wrapper .loadmore:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -29350,7 +29350,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     border-radius: 5px;
     font-size: 12px;
     font-weight: 500;
-    color: #309255;
+    color: #e42355;
     padding: 3px 12px
 }
 
@@ -29379,7 +29379,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-message .message-author .meta .view {
-    color: #309255;
+    color: #e42355;
     font-size: 12px;
     font-weight: 400;
     margin-right: 20px
@@ -29424,8 +29424,8 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .single-message .message-author .meta .answer:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -29497,7 +29497,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .message-form .message-input textarea:focus {
-    border-color: #309255
+    border-color: #e42355
 }
 
 @media only screen and (max-width:575px) {
@@ -29586,7 +29586,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .footer-widget .widget-address p {
     font-size: 15px;
     font-weight: 400;
-    color: #309255;
+    color: #e42355;
     margin-top: 6px
 }
 
@@ -29608,7 +29608,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 
 .footer-widget .widget-info li p i {
     font-size: 20px;
-    color: #309255
+    color: #e42355
 }
 
 .footer-widget .widget-info li p a {
@@ -29637,7 +29637,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .footer-widget .widget-social li a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .footer-widget .widget-link {
@@ -29657,7 +29657,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .footer-widget .widget-link li a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .footer-widget .widget-subscribe {
@@ -29785,8 +29785,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .sidebar-widget .social li a:hover {
-    background-color: #309255;
-    border-color: #309255;
+    background-color: #e42355;
+    border-color: #e42355;
     color: #fff
 }
 
@@ -29811,7 +29811,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .widget-information .info-price .price {
     font-size: 30px;
     font-weight: 700;
-    color: #309255;
+    color: #e42355;
     display: block
 }
 
@@ -29826,7 +29826,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .widget-information .info-list ul li i {
-    color: #309255;
+    color: #e42355;
     margin-right: 3px;
     font-size: 16px
 }
@@ -29904,7 +29904,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .widget-search input:focus {
-    border-color: #309255
+    border-color: #e42355
 }
 
 .widget-search button {
@@ -29914,7 +29914,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     line-height: 48px;
     text-align: center;
     border-radius: 10px;
-    background-color: #309255;
+    background-color: #e42355;
     border: 0;
     top: 6px;
     right: 6px;
@@ -29966,7 +29966,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .widget-category .category-list li a:hover {
-    color: #309255;
+    color: #e42355;
     background-color: #e7f8ee;
     border-color: #e7f8ee
 }
@@ -30063,7 +30063,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .widget-post .single-post .post-content .title a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .widget-post .single-post .post-content .date {
@@ -30074,7 +30074,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 }
 
 .widget-post .single-post .post-content .date i {
-    color: #309255
+    color: #e42355
 }
 
 .widget-tags {
@@ -30138,7 +30138,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 .widget-tags .tags-list li a:hover {
     background-color: #e7f8ee;
     border-color: #e7f8ee;
-    color: #309255
+    color: #e42355
 }
 
 .footer-section {
@@ -30188,7 +30188,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .copyright-link a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .copyright-text {
@@ -30202,7 +30202,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .copyright-text p span {
-    color: #309255;
+    color: #e42355;
     text-transform: uppercase
 }
 
@@ -30211,14 +30211,14 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .copyright-text p a {
-    color: #309255;
+    color: #e42355;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     font-weight: 500
 }
 
 .copyright-text p a:hover {
-    color: #309255
+    color: #e42355
 }
 
 .back-to-top {
@@ -30238,7 +30238,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     color: #fff;
-    background-color: #309255
+    background-color: #e42355
 }
 
 .back-to-top:hover {
