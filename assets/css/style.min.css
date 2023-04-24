@@ -29954,6 +29954,13 @@ only screen and (min-width:992px) and (max-width:1199px) {
     transition: all 0.3s ease 0s
 }
 
+.griii {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .widget-category .category-list li a {
         font-size: 14px
