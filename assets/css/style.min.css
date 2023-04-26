@@ -18205,7 +18205,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .section-title.shape-03 .main-title span:before {
     position: absolute;
     content: "";
-    background-image: url(../images/shape/shape-4.png);
+    /* background-image: url(../images/shape/shape-4.png); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21218,7 +21218,7 @@ only screen and (min-width:1600px) {
 
 .single-courses {
     margin-top: 30px;
-    border: 1px solid rgba(48, 146, 85, 0.2);
+    /* border: 1px solid rgba(48, 146, 85, 0.2); */
     border-radius: 15px;
     padding: 20px;
     -webkit-transition: all 0.3s ease 0s;
@@ -21299,7 +21299,7 @@ only screen and (min-width:1600px) {
 }
 
 .single-courses .courses-content {
-    padding-top: 25px
+    padding-top: 0px
 }
 
 .single-courses .courses-content .courses-author {
@@ -21427,7 +21427,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     font-size: 16px;
     font-weight: 500;
     color: #212832;
-    margin-top: 13px;
+    /* margin-top: 13px; */
     display: inline-block;
     line-height: 1.4
 }
@@ -21892,7 +21892,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 .single-work {
     max-width: 300px;
     border-radius: 10px;
-    background-color: #e7f8ee;
+    /* background-color: #e7f8ee; */
+    border: 1px solid rgba(225, 0, 122, 0.2);
     padding: 38px;
     padding-bottom: 35px;
     margin-top: 30px;
@@ -21940,7 +21941,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     height: 65px;
     line-height: 68px;
     text-align: center;
-    border: 1px solid rgba(48, 146, 85, 0.2);
+    border: 1px solid rgba(225, 0, 122, 0.2);
     border-radius: 10px;
     background-color: #fff;
     color: #e42355;
@@ -29923,10 +29924,11 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .widget-category {
-    padding: 35px;
-    border: 1px solid rgba(48, 146, 85, 0.2);
+    /* padding: 35px; */
+    /* border: 1px solid rgba(48, 146, 85, 0.2); */
     border-radius: 10px;
-    margin-top: 30px
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width:575px),
@@ -29946,7 +29948,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     line-height: 50px;
     display: block;
     color: #52565b;
-    border: 1px solid rgba(48, 146, 85, 0.2);
+    border: 1px solid rgba(225, 0, 122, 0.2);
     border-radius: 10px;
     font-size: 15px;
     font-weight: 500;
@@ -29958,7 +29960,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 10px;
+    gap: 20px;
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -29974,7 +29976,7 @@ only screen and (min-width:992px) and (max-width:1199px) {
 
 .widget-category .category-list li a:hover {
     color: #e42355;
-    background-color: #e7f8ee;
+    background-color: #f8e7f2;
     border-color: #e7f8ee
 }
 
